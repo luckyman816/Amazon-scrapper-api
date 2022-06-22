@@ -1,4 +1,3 @@
-
 # Amazon Scraper API
 
 Generate Amazon Product Details, Reviews and Offers with our easy-to-use API.
@@ -7,7 +6,7 @@ Generate Amazon Product Details, Reviews and Offers with our easy-to-use API.
 
 #### Get Product Details
 
-```http
+```
   GET /products/{productId}
 ```
 
@@ -17,33 +16,33 @@ Generate Amazon Product Details, Reviews and Offers with our easy-to-use API.
 
 #### Get Product Reviews
 
-```http
+```
   GET /products/{productId}/reviews
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `api_key` | `string` | **Required**. Your API key        |
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
 #### Get Product Offers
 
-```http
+```
   GET /products/{productId}/offers
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `api_key` | `string` | **Required**. Your API key        |
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
 #### Get Search Results
 
-```http
+```
   GET /search/{searchQuery}
 ```
 
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `api_key` | `string` | **Required**. Your API key        |
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
 ## Environment Variables
 
@@ -67,8 +66,6 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-
 ## License
 
 [MIT](https://github.com/Technical-Shubham-tech/amazon-scraper-api/blob/main/LICENSE.md)
-
