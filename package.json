@@ -1,0 +1,19 @@
+{
+  "name": "amazon-scraper-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sanidhya Kr. Verma",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
