@@ -5,6 +5,12 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+/******************************************
+ * In Development
+ * const generateScraperURL = () => `http://api.scraperapi.com?api_key=${process.env.SCRAPER_API_KEY}&autoparse=true`;
+ ********************************************/
+
+// In Production (remove in development)
 const generateScraperURL = (apiKey) =>
   `http://api.scraperapi.com?api_key=${apiKey}&autoparse=true`;
 
