@@ -10,7 +10,7 @@ const generateScraperURL = (apiKey) =>
 
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/", (_, res) => {
   res.send("Welcome to Amazon Scraper API.");
 });
 
